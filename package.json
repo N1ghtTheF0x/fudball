@@ -1,0 +1,16 @@
+{
+  "name": "fudball",
+  "version": "1.0.0",
+  "description": "Client for kick.com",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "node -r ts-node/register test.ts"
+  },
+  "keywords": [],
+  "author": "N1ghtTheF0x",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "latest",
+    "ts-node": "latest"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "include": ["source"],
+    "exclude": ["dist","node_modules"],
+    "files": ["test.ts"],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "strict": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true
+    }
+}
